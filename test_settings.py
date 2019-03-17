@@ -19,8 +19,8 @@ def root(*args):
 
 DATABASES = {
     'default': {
-        'ENGINE': 'django.db.backends.sqlite3',
-        'NAME': 'default.db',
+        'ENGINE': 'django.db.backends.postgresql',
+        'NAME': 'communes',
         'USER': '',
         'PASSWORD': '',
         'HOST': '',

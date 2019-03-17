@@ -27,7 +27,7 @@ class Commune(TimeStampedModel):
     created = models.DateTimeField()
     from django.contrib.gis.db import models
     poly = models.PolygonField()
-    rast = models.RasterField()
+    rast = models.RasterField(null=True, blank=True)
 
     def __str__(self):
         """
