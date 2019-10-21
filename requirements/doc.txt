@@ -15,7 +15,7 @@ click==7.0
 code-annotations==0.3
 coverage==4.5.3
 django-model-utils==3.1.2
-django==1.11.20
+django==1.11.23           # via code-annotations, django-model-utils
 doc8==0.8.0
 docutils==0.14            # via doc8, readme-renderer, restructuredtext-lint, sphinx
 edx-sphinx-theme==1.4.0
