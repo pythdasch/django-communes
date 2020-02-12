@@ -20,7 +20,7 @@ coverage==4.5.3
 diff-cover==1.0.7
 distlib==0.2.8
 django-model-utils==3.1.2
-django==1.11.20
+django==1.11.28
 edx-i18n-tools==0.4.8
 edx-lint==1.1.1
 filelock==3.0.10
